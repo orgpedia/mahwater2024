@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-120
+124
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202402291301238827.pdf missing_cmaps: nirmalauibold
@@ -13,4 +13,88 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402291301238827.pdf --> para 202402291301238827.pdf:Page_idx: 0 1 <-> [(0, 10), (0, 11)]
-#docs: 120 #processed: 1
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111226423327.pdf missing_cmaps: nirmalauibold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111226423327.pdf: >शासन निर्णय क्रमांक< >मुदतवाढ-२०२४/प्र.क्र. ७०/मो.प्र.२<
+	elapsed_time:202403111226423327.pdf: 0.000114
+  exec_task: doc_translator_hf 
+    Paras: #49 Sentences: #0
+	[0]  #words: 261 #sentences: 49
+	After generate: 3 MB
+	[1]  #words: 165 #sentences: 15
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111231473927.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Replaced 2:78 >-(dvotsurekhmrbold-cid:56)अ(dvotsurekhmrbold-cid:57)<  >- vu<
+	Replaced 2:80 >(dvotsurekhmrbold-cid:56)ब(dvotsurekhmrbold-cid:57) <  >९७?<
+  exec_task: pdftable_finder 
+	==Total:471 Errors=471 TableEmptyBodyCellError=471
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111231473927.pdf: >शासन निर्णय क्रमांक< >मुदतवाढ-२०२३/प्र.क्र.१७७(२)/मोप्र-२<
+	elapsed_time:202403111231473927.pdf: 0.000096
+  exec_task: doc_translator_hf 
+    Paras: #70 Sentences: #0
+	[0]  #words: 261 #sentences: 58
+	After generate: 3 MB
+	[1]  #words: 262 #sentences: 26
+	After generate: 3 MB
+	[2]  #words: 71 #sentences: 5
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111237536827.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Replaced 2:80 >-(dvotsurekhmrbold-cid:56)अ(dvotsurekhmrbold-cid:57)<  >पज<
+	Replaced 2:82 >(dvotsurekhmrbold-cid:56)ब(dvotsurekhmrbold-cid:57) <  >९७?<
+  exec_task: pdftable_finder 
+	==Total:464 Errors=464 TableEmptyBodyCellError=464
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111237536827.pdf: >शासन निर्णय क्रमांक< >मुदतवाढ-२०२३/प्र.क्र.१७७(३)/मोप्र-२<
+	elapsed_time:202403111237536827.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #72 Sentences: #0
+	[0]  #words: 262 #sentences: 60
+	After generate: 4 MB
+	[1]  #words: 261 #sentences: 27
+	After generate: 4 MB
+	[2]  #words: 77 #sentences: 6
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111239473327.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Replaced 2:78 >-(dvotsurekhmrbold-cid:56)अ(dvotsurekhmrbold-cid:57)<  >- vu<
+	Replaced 2:80 >(dvotsurekhmrbold-cid:56)ब(dvotsurekhmrbold-cid:57)<  >g<
+  exec_task: pdftable_finder 
+	==Total:471 Errors=471 TableEmptyBodyCellError=471
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111239473327.pdf: >शासन निर्णय क्रमांक< >मुदतवाढ-२०२३/प्र.क्र.१७७(१)/मोप्र-२<
+	elapsed_time:202403111239473327.pdf: 0.000103
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #0
+	[0]  #words: 264 #sentences: 58
+	After generate: 4 MB
+	[1]  #words: 267 #sentences: 27
+	After generate: 4 MB
+	[2]  #words: 65 #sentences: 5
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 124 #processed: 5

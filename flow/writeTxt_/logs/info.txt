@@ -13,26 +13,4 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402291301238827.pdf --> para 202402291301238827.pdf:Page_idx: 0 1 <-> [(0, 10), (0, 11)]
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403121218524127.pdf missing_cmaps: nirmalauibold
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:66 Errors=66 TableEmptyBodyCellError=66
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403121218524127.pdf: >शासन निर्णय क्रमांक< >मुवाढ-२०२४/(प्र.क्र.२१/२४)/लाक्षेवि (आस्था)<
-	elapsed_time:202403121218524127.pdf: 0.000087
-  exec_task: doc_translator_hf 
-    Paras: #71 Sentences: #11
-	[0]  #words: 160 #sentences: 10
-	After generate: 4 MB
-	[0]  #words: 261 #sentences: 61
-	After generate: 4 MB
-	[1]  #words: 258 #sentences: 26
-	After generate: 4 MB
-	[2]  #words: 69 #sentences: 6
-	After generate: 4 MB
-  exec_task: text_writer 
-#docs: 125 #processed: 2
+#docs: 125 #processed: 1
